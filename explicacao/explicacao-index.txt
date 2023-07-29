@@ -1,0 +1,41 @@
+Este código HTML cria uma página com cards que apresentam tópicos relacionados ao desenvolvimento frontend. Vou explicar as diferentes partes do código:
+
+- <!DOCTYPE html>: Essa declaração define o tipo de documento como HTML5, indicando que o código está seguindo a especificação mais recente do HTML.
+
+- <html lang="pt-br">: A tag <html> é o elemento raiz do documento HTML. O atributo lang define o idioma do conteúdo da página, nesse caso, é definido como "pt-br" para português brasileiro.
+
+- <head>: Esta seção contém metadados e informações sobre o documento, mas não é exibida na tela. Aqui são especificados o conjunto de caracteres, a viewport, o autor e o título da página.
+
+- <meta charset="UTF-8">: Define o conjunto de caracteres usado na página como UTF-8, que suporta a maioria dos caracteres usados em diferentes idiomas.
+
+- <meta name="viewport" content="width=device-width, initial-scale=1.0">: Define a viewport do dispositivo, permitindo que a página se ajuste ao tamanho da tela. O atributo initial-scale=1.0 define o nível de zoom inicial como 100%.
+
+- <meta name="author" content="Wesley Victor Pereira Silva">: Especifica o autor da página.
+
+- <title>Pagina com cards</title>: Define o título da página, que é exibido na guia do navegador ou na barra de título da janela.
+
+- <link rel="stylesheet" href="styles/estilo.css" />: Linka o arquivo de estilo externo chamado "estilo.css", que contém os estilos para a página.
+
+- <body>: A tag <body> é o corpo do documento HTML. Aqui é onde todo o conteúdo visível é colocado.
+
+- <header class="hero">: Define o cabeçalho da página com a classe "hero".
+
+- <div class="hero-content">: Cria um elemento <div> com a classe "hero-content" para organizar o conteúdo do cabeçalho.
+
+- <h1>Frontend</h1>: Um elemento de cabeçalho de nível 1 (h1) com o texto "Frontend".
+
+- <p>Tudo o que você precisa saber para entrar na carreira</p>: Um parágrafo que descreve o objetivo da página.
+
+- <main>: Define o conteúdo principal da página.
+
+- <section class="content-section">: Cria uma seção com a classe "content-section" para agrupar os cards.
+
+- <article class="card">: Cria um card com a classe "card". Os cards representam os tópicos relacionados ao frontend.
+
+- <img src="imagens/card_01.png" alt="Seletores" />: Exibe uma imagem do card com o atributo "src" apontando para o arquivo "card_01.png" na pasta "imagens". O atributo "alt" fornece um texto alternativo para a imagem, que será exibido caso a imagem não possa ser carregada.
+
+- <p>Seletores</p>: Um parágrafo que descreve o conteúdo do card, neste caso, o tópico "Seletores".
+
+Os demais cards (card_02, card_03, etc.) seguem a mesma estrutura, exibindo imagens e descrições para diferentes tópicos relacionados ao frontend.
+
+Este código cria uma página simples com uma seção de cards que representam tópicos de aprendizado sobre desenvolvimento frontend. Cada card exibe uma imagem ilustrativa e uma descrição sobre o respectivo tópico. O design pode ser estilizado usando o arquivo de estilo externo "estilo.css".

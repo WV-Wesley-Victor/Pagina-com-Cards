@@ -1,0 +1,89 @@
+Esse código HTML e CSS cria uma página com um cabeçalho de destaque ("hero") contendo um título e um parágrafo, seguido por uma seção de cards com imagens e descrições. Vou explicar o código em detalhes:
+
+- html, body { min-height: 100%; }: Define a altura mínima do elemento <body> e do elemento <html> como 100% da altura disponível na janela do navegador. Isso garante que o conteúdo preencha a altura mínima da janela, mesmo quando o conteúdo não ocupa toda a altura.
+
+- body { ... }: Estilos específicos para o corpo do documento.
+
+    margin: 0;: Remove as margens padrão do corpo, garantindo que o conteúdo fique colado nas bordas da janela do navegador.
+
+    font-family: Arial, Helvetica, sans-serif;: Define a família de fonte utilizada para o texto no corpo do documento.
+
+    background-color: #ccc;: Define a cor de fundo do corpo como cinza claro (#ccc).
+
+    background-image: url(../imagens/8e0472f5-a3b7-4931-b694-9ff2e3f0345b.jpg);: Define uma imagem de fundo para o corpo do documento, localizada no diretório "imagens" acima do diretório atual (".."). Essa imagem de fundo será exibida com tamanho completo (100%) e não será repetida.
+
+- .hero { ... }: Estilos específicos para o cabeçalho de destaque.
+
+    padding: 1px;: Adiciona um pequeno espaçamento interno ao cabeçalho.
+    
+- .hero-content { ... }: Estilos específicos para o conteúdo do cabeçalho de destaque.
+
+    margin: 100px auto 0;: Define margem superior de 100px, margem inferior de 0 e margens laterais automáticas, centralizando o conteúdo horizontalmente.
+
+    width: 80%;: Define a largura do conteúdo do cabeçalho como 80% da largura disponível.
+
+    color: white;: Define a cor do texto do conteúdo do cabeçalho como branco.
+
+    text-align: center;: Centraliza o texto horizontalmente.
+
+- .hero-content h1 { ... }: Estilos específicos para o título dentro do cabeçalho de destaque.
+
+    text-transform: uppercase;: Transforma o texto em letras maiúsculas.
+
+    font-size: 56px;: Define o tamanho da fonte como 56 pixels.
+
+    text-shadow: 2px 2px 2px black;: Adiciona uma sombra de texto com deslocamento de 2 pixels na horizontal e 2 pixels na vertical, usando a cor preta (#000000).
+
+    margin-bottom: 0;: Remove a margem inferior do título para evitar espaçamentos indesejados.
+
+- .hero-content p { ... }: Estilos específicos para o parágrafo dentro do cabeçalho de destaque.
+
+    background-color: rgba(0, 0, 0, 0.7);: Define a cor de fundo do parágrafo como preto semi-transparente (RGBA) com um valor de alfa de 0,7, tornando o fundo um pouco translúcido.
+
+    font-size: 18px;: Define o tamanho da fonte como 18 pixels.
+
+    padding: 16px;: Adiciona espaçamento interno de 16 pixels no parágrafo.
+
+    display: inline-block;: Define o parágrafo como um bloco de nível inline, permitindo que ele se ajuste ao tamanho do seu conteúdo.
+
+    border-bottom: 2px solid;: Adiciona uma borda na parte inferior do parágrafo com 2 pixels de espessura.
+
+- .content-section { ... }: Estilos específicos para a seção de cards.
+
+    display: flex;: Define o layout da seção como um flex container, para que os cards possam ser dispostos em uma linha flexível.
+
+    flex-wrap: wrap;: Permite que os cards sejam organizados em várias linhas à medida que o espaço disponível diminui.
+
+    gap: 16px;: Define um espaçamento de 16 pixels entre os cards.
+
+    width: 860px;: Define a largura da seção como 860 pixels.
+
+    margin: auto;: Centraliza a seção horizontalmente, definindo margens automáticas.
+
+    background-color: white;: Define a cor de fundo da seção como branco.
+
+    padding: 16px;: Adiciona espaçamento interno de 16 pixels na seção.
+
+- .card { ... }: Estilos específicos para os cards.
+
+    flex-basis: 250px;: Define a largura base dos cards como 250 pixels. Isso permite que os cards ocupem uma largura mínima antes de se adaptarem ao espaço disponível.
+
+    flex-grow: 1;: Permite que os cards cresçam e preencham o espaço disponível restante na linha flexível.
+
+- .card img { ... }: Estilos específicos para as imagens dentro dos cards.
+
+    width: 100%;: Define a largura da imagem como 100% do contêiner, garantindo que ela preencha todo o espaço disponível horizontalmente.
+
+    display: block;: Define a imagem como um elemento de bloco para que ela respeite a largura do contêiner.
+
+- .card p { ... }: Estilos específicos para os parágrafos dentro dos cards.
+
+    background-color: #393535;: Define a cor de fundo do parágrafo como cinza escuro (#393535).
+
+    color: white;: Define a cor do texto do parágrafo como branco.
+
+    margin: 0;: Remove as margens padrão do parágrafo para evitar espaçamentos indesejados.
+
+    padding: 8px;: Adiciona espaçamento interno de 8 pixels no parágrafo.
+
+Esses estilos combinados criam uma página com uma imagem de fundo no corpo, um cabeçalho de destaque com um título e um parágrafo, seguido por uma seção de cards com imagens e descrições. Os cards são organizados em uma grade flexível que se ajusta ao tamanho da janela do navegador.
