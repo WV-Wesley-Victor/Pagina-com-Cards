@@ -1,0 +1,2 @@
+# Pagina com Cards
+ Este é um repositório no GitHub que contém um projeto prático de uma página com cards, criada com HTML e CSS. Os cards são uma ótima maneira de exibir informações de forma organizada e visualmente atraente. Neste projeto, você aprenderá como criar uma página com diversos cards que contêm conteúdos diferentes, como imagens, títulos e descrições. Aprenda a estruturar o conteúdo usando HTML e estilizar o layout com CSS para criar uma página atraente e dinâmica.
