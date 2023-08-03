@@ -14,6 +14,25 @@ Este repositório no GitHub oferece um projeto prático de uma página com cards
 * Estilização CSS: Explore técnicas de estilização CSS para personalizar a aparência dos cards, aplicando cores, estilos de texto e espaçamento adequados para torná-los visualmente atraentes.
 * Efeitos de Hover: Adicione interatividade aos cards através de efeitos hover, tornando a experiência do usuário mais agradável ao interagir com os elementos.
 
+## Fontes de Pesquisa
+criar uma página com cards usando HTML e CSS é uma ótima maneira de praticar o desenvolvimento web. Aqui estão algumas fontes de pesquisa que podem ajudá-lo a aprender a criar páginas com cards:
+
+* FreeCodeCamp: O FreeCodeCamp oferece um tutorial sobre como criar uma página com cards usando HTML e CSS. Este tutorial pode ser um ótimo ponto de partida.
+Tutorial: https://www.freecodecamp.org/news/how-to-create-responsive-card-ui-with-flexbox/
+* W3Schools - CSS Cards: A W3Schools tem um tutorial específico sobre como criar cards usando CSS. Isso inclui diferentes exemplos de layout e estilo.
+Tutorial: https://www.w3schools.com/howto/howto_css_cards.asp
+* Traversy Media (YouTube): Brad Traversy tem um tutorial em vídeo sobre como criar cards responsivos usando HTML e CSS.
+Vídeo Tutorial: https://www.youtube.com/watch?v=9bBgyOkoBQ0
+* Codecademy: A Codecademy oferece cursos de desenvolvimento web que incluem criação de cards e layouts de página usando HTML e CSS.
+Curso: https://www.codecademy.com/learn/paths/full-stack-engineer-career-path
+* YouTube em geral: Pesquise por tutoriais em vídeo no YouTube usando termos como "HTML CSS card layout tutorial" para encontrar uma variedade de recursos.
+* GitHub: Procure por repositórios públicos no GitHub que contenham exemplos de páginas com cards. Isso pode ser útil para examinar o código de projetos existentes.
+Pesquise por: https://github.com/topics/html-css-card-layout
+* Frontend Mentor: Como mencionado anteriormente, o Frontend Mentor oferece desafios de design que incluem a criação de cards. Isso pode ser uma excelente maneira de praticar suas habilidades.
+Site: https://www.frontendmentor.io/challenges
+
+Lembre-se de que, à medida que você aprende a criar páginas com cards, é importante não apenas seguir tutoriais, mas também experimentar e personalizar os exemplos. Isso ajudará você a entender melhor os conceitos e a se tornar mais confortável com a criação de layouts usando HTML e CSS.
+
 ## Instruções de Instalação (caso aplicável)
 Este projeto é um exemplo funcional disponibilizado online, não requerendo instalação local. Basta acessar o URL fornecido e explorar o projeto.
 
